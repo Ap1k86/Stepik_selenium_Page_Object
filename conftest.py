@@ -18,7 +18,7 @@ def pytest_addoption(parser):
     )
 
 
-# open and quit browser.
+# open and quit bro browser.
 @pytest.fixture(scope="function")
 def browser(request):
 
